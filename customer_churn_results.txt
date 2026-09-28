@@ -1,0 +1,14 @@
+Records: 300
+Accuracy: 0.700
+ROC AUC: 0.731
+New customer churn probability: 96.6%
+At-risk classification: 1
+
+              precision    recall  f1-score   support
+
+           0       0.64      0.41      0.50        22
+           1       0.72      0.87      0.79        38
+
+    accuracy                           0.70        60
+   macro avg       0.68      0.64      0.64        60
+weighted avg       0.69      0.70      0.68        60

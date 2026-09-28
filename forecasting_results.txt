@@ -1,0 +1,12 @@
+Historical records: 120
+Training MAE: 7.99
+Six-month forecast:
+     month  predicted_demand
+2033-01-01             460.4
+2033-02-01             463.4
+2033-03-01             466.4
+2033-04-01             469.5
+2033-05-01             472.5
+2033-06-01             475.5
+
+Assumptions: demand follows a simple linear trend and seasonal effects are not modeled. Improvements could include more years of data, seasonality features, and time-series models.

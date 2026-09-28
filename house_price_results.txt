@@ -1,0 +1,4 @@
+Records: 240
+MAE: $27,481.25
+R2: 0.917
+Predicted price for a 2,000 sq ft Downtown house: $401,135.39
