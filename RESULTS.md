@@ -1,5 +1,7 @@
 **House price prediction**
 The house price prediction model ran with 240 samples in the test data. Mean absolute error was approximately $27,481 and R2 score around 0.917. The predicted value for this Downtown 2,000 sqft house is approximately $401,135 but this is not a guaranteed sale price. 
+
+
 **Code output**
 _Records: 240
 MAE: $27,481.25
@@ -8,6 +10,8 @@ Predicted price for a 2,000 sq ft Downtown house: $401,135.39_
 
 **Customer churn prediction**
 For the customer churn prediction model, there were 300 records used for testing, resulting in test accuracy of 0.7 and ROC AUC of 0.731. This customer is at risk of churn with a predicted churn probability of 96.6% (above 0.5). A business could use this to decide to send out a retention offer or pick up a phone for a customer like this for example.
+
+
 **Code output**
 _Records: 300
 Accuracy: 0.700
@@ -29,6 +33,8 @@ cluster
 
 **Optional housing-demand forecast**
 The model was trained with 120 monthly records. The resulting model is a simple trend forecast. It does not attempt to model seasonality, interest rates, housing inventory, etc.
+
+
 **Code output**
 _Historical records: 120
 Training MAE: 7.99
